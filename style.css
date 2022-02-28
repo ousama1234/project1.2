@@ -1,1 +1,21 @@
-style.css
+body{
+    background-color: grey;
+
+    }
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+
+}
+.bar{
+   margin: center;
+}
+
+.navigation{
+display: flex;
+flex-direction: row;
+text-align: center;
+gap: 50px;
+}
