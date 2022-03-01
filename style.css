@@ -1,21 +1,30 @@
 body{
-    background-color: grey;
+    background-color: beige;
 
     }
 
 h1{
+    font-family: 'Smooch Sans', sans-serif;
+    color: grey;
     text-align: center;
     font-size: 70px;
-    text-decoration: underline;
 
 }
-.bar{
-   margin: center;
-}
 
-.navigation{
+ul{
+    font-family: 'Smooch Sans', sans-serif;
+    list-style: none;
 display: flex;
 flex-direction: row;
-text-align: center;
+justify-content: center;
 gap: 50px;
+}
+
+h2{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+p{
+    white-space: pre-wrap;
+    font-family: 'Smooch Sans', sans-serif;
 }
